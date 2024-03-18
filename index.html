@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCRIPTADOR</title>
+</head>
+<body>
+
+    <div id="titulo">
+         <h1>ENCRIPTADOR</h1>
+    </div>
+
+    <div id="contenedor1">
+        <label for="textoarea">MENSAJE</label>
+        <textarea name="area" id="textoarea" cols="70" rows="10"></textarea>
+
+        <button id="encriptarBtn" >Encriptar</button>
+        <button id="desencriptarBtn" onclick="desencriptarMensaje()">Desencriptar</button>
+        
+    </div>  
+        <div id="contenedor2">
+        <label for="resultado">RESULTADO</label>
+        <textarea name="resultado" id="resultado" cols="70" rows="10" readonly></textarea>
+    </div>
+
+    <script src="funciones.js"></script>
+</body>
+</html>
